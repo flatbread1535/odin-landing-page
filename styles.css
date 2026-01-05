@@ -15,7 +15,7 @@ body {
     flex-direction: column;
     gap: 120px;
     background-color: #1F2937;
-    padding: 10px 200px 120px 200px
+    padding: 10px 200px 120px 200px;
     /* Could manipulate padding later or find way 
     to make universal for entire container */
 }
@@ -84,4 +84,42 @@ body {
     justify-content: center;
     align-items: center;
     background-color: #656c75
+}
+
+.information-section {
+    text-align: center;
+    border: 1px solid black;
+}
+
+.title {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    padding: 30px 0;
+}
+
+.information-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-bottom: 120px;
+}
+
+.info {
+    max-width: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.info-image {
+    width: 200px;
+    height: 200px;
+    border: 3px solid #3882F6;
+    border-radius: 20px;
+}
+
+.info-text {
+    width: 200px;
 }
