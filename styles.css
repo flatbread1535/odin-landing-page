@@ -88,7 +88,6 @@ body {
 
 .information-section {
     text-align: center;
-    border: 1px solid black;
 }
 
 .title {
@@ -121,5 +120,33 @@ body {
 }
 
 .info-text {
+    color: #656c75;
     width: 200px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.quote-block {
+    width: 800px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1F2937;
+    font-weight: 100;
+}
+
+.quote-author {
+    font-size: 24px;
+    color: #1F2937;
+    font-weight: 900;
+    text-align: right;
 }
