@@ -150,3 +150,33 @@ body {
     font-weight: 900;
     text-align: right;
 }
+
+.signup-section {
+    align-content: center;
+    padding: 80px 200px;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 40px 100px;
+}
+
+.button-outline {
+    border: 2px solid white;
+}
+
+.text-weighted {
+    font-weight: 700;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    padding: 40px 0;
+}
